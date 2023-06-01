@@ -15,6 +15,7 @@ while True:
         print("That's a valid input!")
         if guess in list(word.upper()) or guess in list(word.lower()):
             print("Good guess! {guess} is in the word.")
+            break
         else:
             print(f"Sorry, {guess} is not in the word. Try again.")
     else:
